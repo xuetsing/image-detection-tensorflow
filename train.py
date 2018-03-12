@@ -538,7 +538,7 @@ def should_distort_images(flip_left_right, random_crop, random_scale,
 def add_input_distortions(flip_left_right, random_crop, random_scale,
                           random_brightness):
     """
-    Brief：
+    Brief:
         Creates the operations to apply the specified distortions.
 
         During training it can help to improve the results if we run the images
